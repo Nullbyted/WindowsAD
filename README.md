@@ -1,15 +1,19 @@
-SCOPE: 
+<h3> SCOPE: </h3> 
 <br />
 -Active Directory User: 900+
 <br />
       -Used a Powershell script to automate user creation and organizational unit at a User level access
-<br />      
+      <br />
      -Created a separate organizational unit at an Admin level access
-<br />     
+     <br />
      -The script fulfilled all import fields like
+     <br />
           -Password: password policy
+          <br />
           -First & Last name 
+          <br />
           -Display name: using the naming convention of the first letter of the First Name and all the Last Name
+          <br />
           -Employee ID: used Username of the sake of the project
 -RAS/NAT
      -Remote Access Server was used to connect clients to the private networks using projectdomain.com
