@@ -1,8 +1,12 @@
 SCOPE: 
+<br />
 -Active Directory User: 900+
+<br />
       -Used a Powershell script to automate user creation and organizational unit at a User level access
+<br />      
      -Created a separate organizational unit at an Admin level access
-     -The script fulfilled all import fields like 
+<br />     
+     -The script fulfilled all import fields like
           -Password: password policy
           -First & Last name 
           -Display name: using the naming convention of the first letter of the First Name and all the Last Name
