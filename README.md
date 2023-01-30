@@ -12,7 +12,11 @@
       <li> Install File and Printer Services </li>
   </ul>
   
-<h3> 
+<h3> - Windows 2016 VM with Virtual box </h3>
+
+![Virtual box1](https://user-images.githubusercontent.com/116131775/215554197-d4c1788a-e226-4a54-80b4-7c0362d52970.png)
+
+
 
 
 
