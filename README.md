@@ -1,4 +1,4 @@
-<h1> Active Directory Environment </h1>
+<h1> Active Directory Environment</h1>
 
 <h2 style="text-align: center;">Objective: </h2>
   <ul style="font-size:10px">
@@ -11,7 +11,8 @@
       <li> 
       <li> Install File and Printer Services </li>
   </ul>
-  
+<h3> Click Here to skip installation guide ****** </h3>
+<br>
 <h3> - Windows 2016 VM with Virtual box </h3>
 <ul>
 <img  src="./pictures/assests/Virtualbox1.png" width=600 height=600>
@@ -25,6 +26,10 @@
   
 <img  src="./pictures/assests/Virtualbox4.png" width=600 height=500>
   <li> Select other and use Windows 2016 Iso file- Select- Mount and Retry Boot </li>
+  
+<img  src="./pictures/assests/Virtualbox5.png" width=600 height=500> | <img  src="./pictures/assests/Virtualbox6.png" width=600 height=500>| <img  src="./pictures/assests/Virtualbox7.png" width=600 height=500>
+<br>
+  <li> 
   
 </ul>
 
