@@ -1,6 +1,4 @@
-<h2> Click Here to skip installation guide ****** </h3>
-<br>
-<h3> - Windows Server 2019 VM with Virtual box </h3>
+<h1> - Windows Server 2019 VM with Virtual box </h3>
 <ul>
 <img  src="./pictures/assests/Virtualbox1.png" width=600 height=600>
 <img  src="./pictures/assests/Virtualbox2.png" width=800 height=500>
