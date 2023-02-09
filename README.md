@@ -154,14 +154,14 @@ Overall execcution will yeild these results:
   
 <h2> Install DHCP, DNS, & RAS- Private Network </h2>
 
-This section we will install the aformentioned services to provide a way for remote clients to access the server. In essence, the client will get WAN connection from the server to mimic a corporate enviroment.
+In this section, we will install the services mentioned above to provide a way for remote clients to access the server. The archtecture has the server act as a "router" to provide internet connectivity. If you recall, on the installation page we created the server image with two internet interfaces; one for the server to connect to my ISP and the other interface is for the client to connect to the server. Following the latter services we will configure the "Internal Network" with a Class B/C IPv4 Address * In my case i used a Class B Private IP address just to show that the subnet has enough addresses to support the amount of users we generated*** 
 
-The steps taken to install the services are the same as the ones we used to install Active Directory but we will install these:
+The steps taken to install the services are the same as the ones we used to install Active Directory, but we will install DHCP
 <img  src="./pictures/assests/Virtualbox21.png" width=600 height=500>
 <ul>
-  <li> DHCP- will allow for autmatic IPv4 assignment to any connection clients </li>
+  <li> DHCP- will allow for automatic IPv4 assignment to any valid connecting clients </li>
   <li> DNS- allows proper domain resolution when client access WAN </li>
-  <li> RAS- actually allows the client to connect to the server
+  <li> RAS- actually allows the client to connect to the server </li
 
 
 
