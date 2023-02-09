@@ -1,6 +1,7 @@
 <h1 align="center"> Active Directory Environment</h1>
 
-<h2 style="text-align: center;">Objective: </h2>
+<h2>Objective: </h2>
+Th
 
 <br>
 <br>
@@ -9,12 +10,11 @@
   <ul style="font-size:10px">
       <li> Install Microsoft Server 2019 & Windows Pro (Virtual Box): *refer to InstallationGuide.md* </li>
       <li> Install Active Directory. </li>
-      <li> </li>
-      <li> Install DHCP and DNS Services for private network </li>
-      <li> Install Remote Access Services </li>
-      <li> Create OU's for admin and users using both GUI and powershell. *includes username paswwords </li>
-      <li> Create Client (Windows Pro) to connect Domain Controller </li>
-      <li> 
+      <li> User Creation Method 1 (GUI) </li>
+      <li> User Creation Method 2 (Powershell)</li>
+      <li> User Creation Method 3 (Powershell Script) </li>
+      <li> Install DHCP and DNS Services- Private network </li>
+      <li> Windows Pro Client- Access Private Network @ Server </li>
       <li> Install File and Printer Services </li>
   </ul>
 <br>
