@@ -253,7 +253,6 @@ Now that we have our server configured, it is time to connect one of the generat
   <li> On the right side, we can see the Client image shows the ip address is 172.16.0.100 and it's Gateway is 172.16.0.1.</li>
   <li> On the left side, we can see the server image shows the current lease that matches the ip address of the client image.</li>
   <br>
-<ul>
   <li>Test internet connectivity</li>
 <img  src="./pictures/assests/Virtualbox36.png" width=1000 height=500>
   <li>Here we can see that we were able to ping and reach Google.com
