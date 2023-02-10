@@ -152,9 +152,9 @@ Overall execcution will yeild these results:
   <img  src="./pictures/assests/Screenshot 2022-12-14 133618.png" width=600 height=500>
   
   
-<h2 id="Network"> Install DHCP, DNS, & RAS- Private Network </h2>
+<h2 id="Network"> Install &c Configure DHCP, DNS, & RAS- Private Network </h2>
 
-In this section, we will install the services mentioned above to provide a way for remote clients to access the server. The archtecture has the server act as a "router" to provide internet connectivity. If you recall, on the installation page we created the server image with two internet interfaces; one for the server to connect to my ISP and the other interface is for the client to connect to the server. Following the latter services we will configure the "Internal Network" with a Class B/C IPv4 Address * In my case i used a Class B Private IP address just to show that the subnet has enough addresses to support the amount of users we generated*** 
+In this section, we will install the services mentioned above to provide a way for remote clients to access the server. The archtecture has the server act as a "router" to provide internet connectivity. If you recall, on the installation page we created the server image with two internet interfaces; one for the server to connect to my ISP and the other interface is for the client to connect to the server. However we are first adding an IP address to the private interface network with a Class B/C IPv4 Address * In my case I used a Class B Private IP address just to show that the subnet has enough addresses to support the amount of users we generated***, then we will install and configure the latter services.
 <br>
 <h3> Services BreakDown: </h3>
 <br>
@@ -163,6 +163,23 @@ In this section, we will install the services mentioned above to provide a way f
   <li> DNS- allows proper domain resolution when client access WAN </li>
   <li> RAS- actually allows the client to connect to the server </li>
 </ul>
+
+<br>
+<h2> Private Network Configuration </h2>
+<ul>
+  <li>We need to add an asdress to the private network which will be part of the DHCP scope. You can choose between 172.16.0.1 (Class B Private) or (192.168.1.1) as valid address and a subnet of 255.255.255.0.</li>
+</ul>
+<br>
+<br>
+<img  src="./pictures/assests/Virtualbox23.png" width=600 height=500>
+<img  src="./pictures/assests/Virtualbox24.png" width=600 height=500>
+<img  src="./pictures/assests/Virtualbox25.png" width=600 height=500>
+<br>
+<ul>
+  <li> For DNS you can either use the ip address of the external IP (the one that connects to ISP) or use the loopback address (127.0.0.1)
+</ul>
+<br>
+<br>
 <h3> Services and Configuration </h3>
 <ul>
 <li>The steps taken to install the services are the same as the ones we used to install Active Directory
@@ -180,6 +197,9 @@ In this section, we will install the services mentioned above to provide a way f
 <ul> 
   <li> Once installed we can head to DCP Server Manager -->Tasks-->Add Roles and Features-->
 </ul>
+<br>
+<br>
+
   
   
 
