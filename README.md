@@ -266,9 +266,13 @@ Now that we have our server configured, it is time to connect one of the generat
 <br>
 <h2 id="Scale">Scaled Project</h2>
 This project will be intergrated with other project such SIEM Monitoring and Windows Directory Privelage escalation. Please refer to the following links to see the continuation of this project.
+<br>
 - [SIEM Enviroment **in progress**](https://github.com/Nullbyted/SIEM_Enviroment)
+<br>
 - [Snort IDS/IPS Rules **in progress**](https://github.com/Nullbyted/Snort_IDS-IPS)
+<br>
 - [Sysmon **in progress**](https://github.com/Nullbyted/Sysmon)
+<br>
 - [Windows Privelage Escalation **in progress**](https://github.com/Nullbyted/WindowsPriveEsc)
 
     
