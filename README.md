@@ -187,18 +187,32 @@ In this section, we will install the services mentioned above to provide a way f
 <br>
 <ul>
   <img  src="./pictures/assests/Virtualbox21.png" width=600 height=500>
+  <br>
   <li> **You may want to install theese services seprately **</li>
+  <br>
   <img  src="./pictures/assests/Virtualbox21.png" width=600 height=500>
+  <br>
   <li> Make sure you add these features </li>
 </ul>
 <br>
 <br>
 <h4> DHCP Configuration</h4>
 <ul> 
-  <li> Once installed we can head to DCP Server Manager -->Tasks-->Add Roles and Features-->
+  <li> Once DHCP is install we can go to ->Tools->DHCP->rightcliick IPv4--> new scope
+  <li> We will now add a Scope to our DHCP using the follwing illustrations</li>
+  <br>
+  <br>
+  <img  src="./pictures/assests/Virtualbox26.png" width=600 height=500>
+  <br>
+  <li> This is the address range we are using. We generate over a thousand users, so we are ussing a /24 meaning we only get 255 hosts per subnet. depending on the amount of host you need persubnett then you can adjust it to refelect needs.  
+  <li> for the purpose of this assignment we will not exclude an address,but you can if needed: click Next
+  <br>
+  <img  src="./pictures/assests/Virtualbox27.png" width=600 height=500>
+  
 </ul>
 <br>
 <br>
+<img  src="./pictures/assests/Virtualbox2.png" width=600 height=500>
 
   
   
