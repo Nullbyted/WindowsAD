@@ -15,7 +15,7 @@ The purpose of this project is to demonstrate my skills in installing and config
       <li><a href="#User3"> User Creation Method 3 (Powershell Script).</a> </li>
       <li><a href="#Network"> Install DHCP and DNS Services- Private network.</a> </li>
       <li><a href="#Pro"> Windows Pro Client- Access Private Network @ Server</a> </li>
-      <li><a href="Scale"> Scaled Project </li>
+      <li><a href="#Scale"> Scaled Project </li>
   </ul>
 <br>
 <br>
