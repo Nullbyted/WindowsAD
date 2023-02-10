@@ -15,7 +15,7 @@ The purpose of this project is to demonstrate my skills in installing and config
       <li><a href="#User3"> User Creation Method 3 (Powershell Script).</a> </li>
       <li><a href="#Network"> Install DHCP and DNS Services- Private network.</a> </li>
       <li><a href="#Pro"> Windows Pro Client- Access Private Network @ Server</a> </li>
-      <li><a href="#File"> Install File and Printer Services. </a></li>
+      <li><a href="Scale"> Scaled Project </li>
   </ul>
 <br>
 <br>
@@ -222,7 +222,6 @@ In this section, we will install the services mentioned above to provide a way f
 This section is fairly quick, the services are installed all there is left to do is go to Tools-->Routing and Remote Access-->right click Server--> Configure and Enable--> NAT-->Select ISP interfac
 <img  src="./pictures/assests/Virtualbox29.png" width=500 height=500>
 <img  src="./pictures/assests/Virtualbox30.png" width=500 height=500>
-<img  src="./pictures/assests/Virtualbox31.png" width=500 height=500>
   
 <br>
 <br>
@@ -232,22 +231,50 @@ Now that we have our server configured, it is time to connect one of the generat
 <ol>
   <li>IP address reflects the DHCP scope</li>
   <li>Test internet connectivity</li>
-  <li>Check Domain is in accordance to Domain controller 
+  <li>Check Domain is in accordance to Domain controller</li>
 </ol>
 
 <h3>Connecting to Domain Controller</h3>
-    
+<ul>    
 <img  src="./pictures/assests/Virtualbox33.png" width=500 height=500>
-<img  src="./pictures/assests/Virtualbox34.png" width=500 height=500>
-<img  src="./pictures/assests/Virtualbox35.png" width=500 height=500>
+  <br>
+<img  src="./pictures/assests/Virtualbox34.png" width=400 height=500>
+<br>
+  <li> You wan to make sure you use the user name of on of the accounts you created from the User creation section. For this project all passwords should be Password1</li>
+<br>
+<img  src="./pictures/assests/Virtualbox35.png" width=400 height=500>
+</ul>
+<h3> Tests<h3>
+<ul>
+  <li>IP address reflects the DHCP scope</li>
+  <br>
+  </ul>
+<img  src="./pictures/assests/Virtualbox32.png" width=1000 height=500>
+<ul>
+  <br>
+  <li> On the right side, we can see the Client image shows the ip address is 172.16.0.100 and it's Gateway is 172.16.0.1.</li>
+  <li> On the left side, we can see the server image shows the current lease that matches the ip address of the client image.</li>
+</ul>
+  <br>
+<ul>
+  <li>Test internet connectivity</li>
+<img  src="./pictures/assests/Virtualbox36.png" width=1000 height=500>
+  <li>Here we can see that we were able to ping and reach Google.com
+ </ul>
+<br>
+<br>
+<br>
+<h2 id="Scale">Scaled Project</h2>
+This project will be intergrated with other project such SIEM Monitoring and Windows Directory Privelage escalation. Please refer to the following links to see the continuation of this project.
+- [SIEM Enviroment **in progress**](https://github.com/Nullbyted/SIEM_Enviroment)
+- [Snort IDS/IPS Rules **in progress**](https://github.com/Nullbyted/Snort_IDS-IPS)
+- [Sysmon **in progress**](https://github.com/Nullbyted/Sysmon)
+- [Windows Privelage Escalation **in progress**](https://github.com/Nullbyted/WindowsPriveEsc)
 
     
     
     
-    
-    
-<img  src="./pictures/assests/Virtualbox3.png" width=500 height=500>
-  
+
  
   
   
