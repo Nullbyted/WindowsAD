@@ -244,7 +244,7 @@ Now that we have our server configured, it is time to connect one of the generat
 <br>
 <img  src="./pictures/assests/Virtualbox35.png" width=400 height=500>
 </ul>
-<h3> Tests<h3>
+<h3> Tests</h3>
 <ul>
   <li>IP address reflects the DHCP scope</li>
   <br>
