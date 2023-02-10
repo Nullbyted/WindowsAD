@@ -165,7 +165,7 @@ In this section, we will install the services mentioned above to provide a way f
 </ul>
 
 <br>
-<h2> Private Network Configuration </h2>
+<h3> Private Network Configuration </h2>
 <ul>
   <li>We need to add an asdress to the private network which will be part of the DHCP scope. You can choose between 172.16.0.1 (Class B Private) or (192.168.1.1) as valid address and a subnet of 255.255.255.0.</li>
 </ul>
