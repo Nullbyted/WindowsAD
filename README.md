@@ -14,7 +14,7 @@ The purpose of this project is to demonstrate my skills in installing and config
       <li><a href="#User2"> User Creation Method 2 (Powershell). </a></li>
       <li><a href="#User3"> User Creation Method 3 (Powershell Script).</a> </li>
       <li><a href="#Network"> Install DHCP and DNS Services- Private network.</a> </li>
-      <li><a href="#Pro"> Windows Pro Client- Access Private Network @ Server.</a> </li>
+      <li><a href="#Pro"> Windows Pro Client- Access Private Network @ Server</a> </li>
       <li><a href="#File"> Install File and Printer Services. </a></li>
   </ul>
 <br>
@@ -207,21 +207,46 @@ In this section, we will install the services mentioned above to provide a way f
   <li> This is the address range we are using. We generate over a thousand users, so we are ussing a /24 meaning we only get 255 hosts per subnet. depending on the amount of host you need persubnett then you can adjust it to refelect needs.  
   <li> for the purpose of this assignment we will not exclude an address,but you can if needed: click Next
   <br>
-  <img  src="./pictures/assests/Virtualbox27.png" width=600 height=500>
-  
+  <img  src="./pictures/assests/Virtualbox27.png" width=500 height=500>
+  <br> 
+  <li>The address leasing time for the sake of this project will be 8 daysm, however depending on the buisiness needs and security measures it is better to reduce the lease time to a minimum of 12 hours. As this will ensure DHCP Scope will not be exhausted and improve security.</li>
+  <li> in the Configure DCP Scope options, click yes and next. This is where we are going to indetify the "router" with the address 172.16.0.1 as our gateway address. The trafffic flow will be the follwoing. the connectng client packets will be sent to the gateway (172.16.0.1) to the loopback address (127.0.0.1), the loop back address is associated with external facing ip address that connects to my ISP (you can determine the ip by going to command pormpt and typing ipconfig /all)
+  <li> The follwing page will be auto configured since Active directory automatically installs DNS just make sure that the parent domain is name after whatever you put for your domain controller and the IP address of the private network (172.16.0.1).</li>
+  <li> After this click next on everything else that that should be it. and it should look more or less like the following. </li>
+<img  src="./pictures/assests/Virtualbox28.png" width=600 height=500>
 </ul>
 <br>
 <br>
-<img  src="./pictures/assests/Virtualbox2.png" width=600 height=500>
-
+<h3> Configuring RAS and NAT </h3>
+<br>
+This section is fairly quick, the services are installed all there is left to do is go to Tools-->Routing and Remote Access-->right click Server--> Configure and Enable--> NAT-->Select ISP interfac
+<img  src="./pictures/assests/Virtualbox29.png" width=500 height=500>
+<img  src="./pictures/assests/Virtualbox30.png" width=500 height=500>
+<img  src="./pictures/assests/Virtualbox31.png" width=500 height=500>
   
-  
+<br>
+<br>
+<br>
+<h2 id="Pro">Windows Pro Client- Access Private Network @ Server</h2>
+Now that we have our server configured, it is time to connect one of the generated users to the server and test for the following:
+<ol>
+  <li>IP address reflects the DHCP scope</li>
+  <li>Test internet connectivity</li>
+  <li>Check Domain is in accordance to Domain controller 
+</ol>
 
+<h3>Connecting to Domain Controller</h3>
+    
+<img  src="./pictures/assests/Virtualbox33.png" width=500 height=500>
+<img  src="./pictures/assests/Virtualbox34.png" width=500 height=500>
+<img  src="./pictures/assests/Virtualbox35.png" width=500 height=500>
 
-
-
-
-
+    
+    
+    
+    
+    
+<img  src="./pictures/assests/Virtualbox3.png" width=500 height=500>
   
  
   
