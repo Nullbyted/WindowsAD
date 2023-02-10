@@ -9,13 +9,13 @@ The purpose of this project is to demonstrate my skills in installing and config
 <h2> Table of Contents</h2>
   <ul style="font-size:10px">
       <li> Install Microsoft Server 2019 & Windows Pro (Virtual Box): *refer to InstallationGuide.md* </li>
-      <li><a href="Active"> Install Active Directory.</a> </li>
-      <li><a href="User"> User Creation Method 1 (GUI). </a> </li>
-      <li><a href="User2"> User Creation Method 2 (Powershell). </a></li>
-      <li><a href="User3"> User Creation Method 3 (Powershell Script).</a> </li>
-      <li><a href="Network"> Install DHCP and DNS Services- Private network.</a> </li>
-      <li><a href="Pro"> Windows Pro Client- Access Private Network @ Server.</a> </li>
-      <li><a href="File"> Install File and Printer Services. </a></li>
+      <li><a href="#Active"> Install Active Directory.</a> </li>
+      <li><a href="#User"> User Creation Method 1 (GUI). </a> </li>
+      <li><a href="#User2"> User Creation Method 2 (Powershell). </a></li>
+      <li><a href="#User3"> User Creation Method 3 (Powershell Script).</a> </li>
+      <li><a href="#Network"> Install DHCP and DNS Services- Private network.</a> </li>
+      <li><a href="#Pro"> Windows Pro Client- Access Private Network @ Server.</a> </li>
+      <li><a href="#File"> Install File and Printer Services. </a></li>
   </ul>
 <br>
 <br>
